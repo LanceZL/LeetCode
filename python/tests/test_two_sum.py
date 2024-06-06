@@ -1,5 +1,5 @@
-from solutions.two_sum import TwoSum
-from .base_test_case import Case
+from python.solutions.two_sum import TwoSum
+from python.utils.test_case import Case
 
 def test():
     """Test Two Sum"""
