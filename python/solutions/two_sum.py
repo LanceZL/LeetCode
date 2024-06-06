@@ -16,4 +16,3 @@ class TwoSum:
             record[v] = i
 
         return [-1, -1]
-    

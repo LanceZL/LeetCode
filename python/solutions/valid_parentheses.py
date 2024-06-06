@@ -7,7 +7,7 @@ class ValidParentheses:
     #     # base case
     #     if len(s) <= 1:
     #         return False
-        
+
     #     # Use a stack to track the order, push the corresponding right parentheses into the stack.
     #     stack = []
     #     for p in s:
@@ -23,7 +23,7 @@ class ValidParentheses:
     #                 return False
     #             stack.pop()
     #     return len(stack) == 0
-    
+
     def isValid(self, s: str) -> bool:
         """
         Use a mapping to simplify code
