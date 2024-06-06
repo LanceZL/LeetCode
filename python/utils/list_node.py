@@ -3,9 +3,11 @@ from typing import List
 
 class ListNode:
     """Node in single list."""
+
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+
 
 class LinkedList:
     """
@@ -21,12 +23,12 @@ class LinkedList:
         """
         if nums is None:
             return None
-        
+
         n = len(nums)
         # Empty list.
         if n == 0:
             return None
-        
+
         # Headnode
         head = ListNode(nums[0])
         cur = head
@@ -35,9 +37,8 @@ class LinkedList:
         for i in range(1, n):
             cur.next = ListNode(nums[i])
             cur = cur.next
-        
-        return head
 
+        return head
 
     @staticmethod
     def compare(l1: ListNode, l2: ListNode) -> bool:
@@ -70,7 +71,6 @@ class LinkedList:
         """
         if l is None:
             return ""
-        
+
         values = LinkedList.value_of(l)
         return " -> ".join(str(x) for x in values)
-
