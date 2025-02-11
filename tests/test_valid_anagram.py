@@ -1,5 +1,5 @@
-from python.solutions.valid_anagram import ValidAnagram
-from python.utils.test_case import Case
+from solutions.valid_anagram import ValidAnagram
+from utils.test_case import Case
 
 
 def test():

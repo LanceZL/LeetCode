@@ -1,5 +1,5 @@
-from python.solutions.longest_palindrome import LongestPalindrome
-from python.utils.test_case import Case
+from solutions.longest_palindrome import LongestPalindrome
+from utils.test_case import Case
 
 
 def test_longest_palindrome():

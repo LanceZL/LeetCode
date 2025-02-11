@@ -1,5 +1,5 @@
-from python.solutions.climbing_stairs import ClimbStairs
-from python.utils.test_case import Case
+from solutions.climbing_stairs import ClimbStairs
+from utils.test_case import Case
 
 
 def test_climb_stairs():

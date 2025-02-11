@@ -1,5 +1,5 @@
-from python.solutions.binary_search import BinarySearch
-from python.utils.test_case import Case
+from solutions.binary_search import BinarySearch
+from utils.test_case import Case
 
 
 def test():

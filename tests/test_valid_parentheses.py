@@ -1,5 +1,5 @@
-from python.solutions.valid_parentheses import ValidParentheses
-from python.utils.test_case import Case
+from solutions.valid_parentheses import ValidParentheses
+from utils.test_case import Case
 
 
 def test():

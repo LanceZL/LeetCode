@@ -1,5 +1,5 @@
-from python.solutions.valid_palindrome import ValidParlindrome
-from python.utils.test_case import Case
+from solutions.valid_palindrome import ValidParlindrome
+from utils.test_case import Case
 
 
 def test():

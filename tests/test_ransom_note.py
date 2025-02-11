@@ -1,5 +1,5 @@
-from python.solutions.ransom_note import RansomNote
-from python.utils.test_case import Case
+from solutions.ransom_note import RansomNote
+from utils.test_case import Case
 
 
 def test():

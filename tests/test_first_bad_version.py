@@ -1,5 +1,5 @@
-from python.solutions.first_bad_version import FirstBadVersion
-from python.utils.test_case import Case
+from solutions.first_bad_version import FirstBadVersion
+from utils.test_case import Case
 
 
 def test():

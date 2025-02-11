@@ -1,5 +1,5 @@
-from python.utils.list_node import build_list
-from python.utils.test_case import Case
+from utils.list_node import build_list
+from utils.test_case import Case
 
 
 class TestList:

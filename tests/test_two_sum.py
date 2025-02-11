@@ -1,5 +1,5 @@
-from python.solutions.two_sum import TwoSum
-from python.utils.test_case import Case
+from solutions.two_sum import TwoSum
+from utils.test_case import Case
 
 
 def test():

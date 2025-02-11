@@ -1,5 +1,5 @@
-from python.solutions.sell_stock_I import MaxProfit
-from python.utils.test_case import Case
+from solutions.sell_stock_I import MaxProfit
+from utils.test_case import Case
 
 
 def test():

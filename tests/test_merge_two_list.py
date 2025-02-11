@@ -1,6 +1,6 @@
-from python.solutions.merge_two_list import MergeTwoLists
-from python.utils.list_node import build_list
-from python.utils.test_case import Case
+from solutions.merge_two_list import MergeTwoLists
+from utils.list_node import build_list
+from utils.test_case import Case
 
 
 def test():

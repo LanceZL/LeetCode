@@ -1,5 +1,5 @@
-from python.solutions.flood_fill import FloodFill
-from python.utils.test_case import Case
+from solutions.flood_fill import FloodFill
+from utils.test_case import Case
 
 
 def test():

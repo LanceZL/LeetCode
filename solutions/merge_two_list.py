@@ -1,6 +1,6 @@
 from typing import Optional
 
-from ..utils.list_node import ListNode
+from utils.list_node import ListNode
 
 
 class MergeTwoLists:
