@@ -16,7 +16,4 @@ def test():
     ]
 
     for testcase in cases:
-        assert (
-            BinarySearch().search(testcase.params[0], testcase.params[1])
-            == testcase.expect
-        )
+        assert BinarySearch().search(testcase.params[0], testcase.params[1]) == testcase.expect

@@ -20,7 +20,4 @@ def test():
     ]
 
     for c in cases:
-        assert (
-            FloodFill().floodFill(c.params[0], c.params[1], c.params[2], c.params[3])
-            == c.expect
-        )
+        assert FloodFill().floodFill(c.params[0], c.params[1], c.params[2], c.params[3]) == c.expect

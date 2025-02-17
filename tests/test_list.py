@@ -40,9 +40,7 @@ class TestList:
             Case(params=[build_list([0]), build_list([0])], expect=True),
             Case(params=[build_list([1]), build_list([1])], expect=True),
             Case(params=[build_list([1]), build_list([1, 2, 3, 4])], expect=False),
-            Case(
-                params=[build_list([1, 2, 3, 4]), build_list([1, 2, 3, 4])], expect=True
-            ),
+            Case(params=[build_list([1, 2, 3, 4]), build_list([1, 2, 3, 4])], expect=True),
             Case(
                 params=[build_list([1, 2, 3, 4]), build_list([4, 3, 2, 1])],
                 expect=False,

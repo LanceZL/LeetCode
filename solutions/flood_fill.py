@@ -7,9 +7,7 @@ class FloodFill:
     Link:   https://leetcode.com/problems/flood-fill/description/
     """
 
-    def floodFill(
-        self, image: List[List[int]], sr: int, sc: int, color: int
-    ) -> List[List[int]]:
+    def floodFill(self, image: List[List[int]], sr: int, sc: int, color: int) -> List[List[int]]:
         """
         Approach:   Employ a dfs to tackle this problem.
                     Mark any adjecent block with the given color when iterating over the image.

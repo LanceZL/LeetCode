@@ -12,7 +12,4 @@ def test():
     ]
 
     for testcase in testcases:
-        assert (
-            RansomNote().canConstruct(testcase.params[0], testcase.params[1])
-            == testcase.expect
-        )
+        assert RansomNote().canConstruct(testcase.params[0], testcase.params[1]) == testcase.expect
