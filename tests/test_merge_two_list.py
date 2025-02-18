@@ -9,7 +9,9 @@ def test():
         Case(params=[build_list(None), build_list(None)], expect=build_list(None)),
         Case(params=[build_list([]), build_list([])], expect=build_list([])),
         Case(params=[build_list([]), build_list([0])], expect=build_list([0])),
-        Case(params=[build_list([1, 2, 3]), build_list([])], expect=build_list([1, 2, 3])),
+        Case(
+            params=[build_list([1, 2, 3]), build_list([])], expect=build_list([1, 2, 3])
+        ),
         Case(
             params=[build_list([2, 4, 6]), build_list([1, 3, 5])],
             expect=build_list([1, 2, 3, 4, 5, 6]),
@@ -21,4 +23,6 @@ def test():
     ]
 
     for case in cases:
-        assert MergeTwoLists().mergeTwoLists(case.params[0], case.params[1]) == case.expect
+        assert (
+            MergeTwoLists().mergeTwoLists(case.params[0], case.params[1]) == case.expect
+        )
