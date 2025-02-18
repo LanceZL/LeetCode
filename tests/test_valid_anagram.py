@@ -15,6 +15,6 @@ def test():
 
     for testcase in cases:
         assert (
-            ValidAnagram().isAnagram(testcase.params[0], testcase.params[1])
-            == testcase.expect
+                ValidAnagram().isAnagram(testcase.params[0], testcase.params[1])
+                == testcase.expect
         )

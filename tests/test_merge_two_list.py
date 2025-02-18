@@ -24,5 +24,5 @@ def test():
 
     for case in cases:
         assert (
-            MergeTwoLists().mergeTwoLists(case.params[0], case.params[1]) == case.expect
+                MergeTwoLists().mergeTwoLists(case.params[0], case.params[1]) == case.expect
         )

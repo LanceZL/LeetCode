@@ -8,7 +8,7 @@ class FloodFill:
     """
 
     def floodFill(
-        self, image: List[List[int]], sr: int, sc: int, color: int
+            self, image: List[List[int]], sr: int, sc: int, color: int
     ) -> List[List[int]]:
         """
         Approach:   Employ a dfs to tackle this problem.
@@ -25,13 +25,13 @@ class FloodFill:
         return image
 
     def dfs(
-        self,
-        image: List[List[int]],
-        visited: List[List[bool]],
-        r: int,
-        c: int,
-        color: int,
-        original: int,
+            self,
+            image: List[List[int]],
+            visited: List[List[bool]],
+            r: int,
+            c: int,
+            color: int,
+            original: int,
     ):
         """Helper DFS function."""
         # Out of boundray or meets a blocker or already been visited.

@@ -11,7 +11,7 @@ class MergeTwoLists:
     """
 
     def mergeTwoLists(
-        self, l1: Optional[ListNode], l2: Optional[ListNode]
+            self, l1: Optional[ListNode], l2: Optional[ListNode]
     ) -> Optional[ListNode]:
         """Sorted List"""
         # Base Case
